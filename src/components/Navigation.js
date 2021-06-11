@@ -7,7 +7,7 @@ const Navigation = () => {
          <div className="id">
             <div className="idContent">
                <img src="./media/billGates.jpg" alt="profil-pic" />
-               <h3>LISITA Vincent</h3>
+               <h3>Vincent LISITA</h3>
             </div>
          </div>
 
@@ -22,7 +22,7 @@ const Navigation = () => {
                <li>
                   <NavLink exact to="/competences" activeClassName="navActive">
                      <i className="fas fa-mountain"></i>
-                     <span>Compétence</span>
+                     <span>Compétences</span>
                   </NavLink>
                </li>
                <li>
@@ -62,10 +62,10 @@ const Navigation = () => {
                      <i className="fab fa-codepen"></i>
                   </a>
                </li>
-               </ul>
-               <div className="signature">
-                   <p>Forth &copy; 2021</p>
-               </div>
+            </ul>
+            <div className="signature">
+               <p>Forth &copy; 2021</p>
+            </div>
          </div>
       </div>
    );
