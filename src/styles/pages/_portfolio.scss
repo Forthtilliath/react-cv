@@ -84,14 +84,14 @@
       grid-column: 1;
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: space-between;
 
       .project {
          background: $color-2;
          border-radius: $borderRadius;
          margin: 0.5rem 0 0 0;
          text-align: center;
-         width: 32%;
+         width: 33%;
          min-height: 250px;
          max-height: 50%;
          padding: 0.3rem;
@@ -241,6 +241,7 @@
       .project {
          grid-template-rows: 30px 40px 80px 40px !important;
          width: 98% !important;
+         min-height: auto !important;
 
          img {
             height: 100% !important;

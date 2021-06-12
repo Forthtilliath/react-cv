@@ -58,7 +58,7 @@ a:visited {
   background-color: #2a1d52;
   font-family: "Nova Round", cursive;
   height: 100%;
-  min-height: 500px;
+  min-height: 95vh;
   width: 264px;
   border-radius: 25px;
   position: relative;
@@ -129,9 +129,8 @@ a:visited {
   position: relative;
 }
 
-.navigation ul li a:hover i {
-  -webkit-transform: translate(3px, 3px);
-          transform: translate(3px, 3px);
+.navigation ul li a:hover i, .navigation ul li a:hover span {
+  color: #63a4e9;
 }
 
 .navigation ul li a {
@@ -139,7 +138,7 @@ a:visited {
 }
 
 .navigation ul li .navActive {
-  color: #4fedd2;
+  color: #4fedd2 !important;
 }
 
 .navigation ul li i {
@@ -267,7 +266,7 @@ a:visited {
 .home .homeContent {
   background: linear-gradient(115deg, #2a1d52 50%, transparent 100%);
   width: 100%;
-  min-height: 500px;
+  min-height: 95vh;
   border-radius: 25px;
   position: relative;
   overflow: hidden;
@@ -780,8 +779,9 @@ a:visited {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .portfolio .projects .project {
@@ -789,7 +789,7 @@ a:visited {
   border-radius: 25px;
   margin: 0.5rem 0 0 0;
   text-align: center;
-  width: 32%;
+  width: 33%;
   min-height: 250px;
   max-height: 50%;
   padding: 0.3rem;
@@ -1013,6 +1013,7 @@ a:visited {
     -ms-grid-rows: 30px 40px 80px 40px !important;
         grid-template-rows: 30px 40px 80px 40px !important;
     width: 98% !important;
+    min-height: auto !important;
   }
   .portfolioContent .project img {
     height: 100% !important;
@@ -1275,7 +1276,7 @@ a:visited {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 500px;
+  height: 95vh;
   max-width: 1200px;
   background: #63a4e9;
   border-radius: 25px;

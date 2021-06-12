@@ -55,15 +55,16 @@
          font-size: 1.3rem;
          position: relative;
 
-         a:hover i {
-            transform: translate(3px, 3px);
+         a:hover i, a:hover span {
+            // transform: translate(3px, 3px);
+            color: $color-3;
          }
 
          a {
             color: $color-5;
          }
          .navActive {
-            color: $color-4;
+            color: $color-4 !important;
          }
          i {
             position: absolute;
