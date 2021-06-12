@@ -2,9 +2,8 @@
 
   .homeContent {
     background: linear-gradient(115deg, $color-1 50%, transparent 100%);
-    min-height: $minHeight;
     width: 100%;
-    min-height: 500px;
+    min-height: $minHeight;
     border-radius: $borderRadius;
     position: relative;
     overflow: hidden;

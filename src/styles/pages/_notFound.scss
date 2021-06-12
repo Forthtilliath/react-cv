@@ -1,6 +1,6 @@
 .notFound {
   @include verticalCenter;
-  height: 95vh;
+  height: $minHeight;
   max-width: 1200px;
   background: $color-3;
   border-radius: $borderRadius;
