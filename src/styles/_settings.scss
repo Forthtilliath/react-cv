@@ -18,6 +18,8 @@ $borderRadius: 25px;
 $shadow: 0 1px 3px $black;
 $minHeight: 95vh;
 
+$otherSkillsCol: 2;
+
 @mixin verticalCenter {
     display: flex;
     justify-content: center;

@@ -18,8 +18,6 @@ const OtherSkills = () => {
                <li>
                   <i className="fas fa-check-square"></i> Méthodes agiles
                </li>
-            </ul>
-            <ul>
                <li>
                   <i className="fas fa-check-square"></i> Figma
                </li>
