@@ -12,9 +12,9 @@
    grid-template-areas: '1' '2' '3';
 
    .id {
+      grid-area: 1;
       grid-row: 1;
       grid-column: 1;
-      grid-area: 1;
       text-align: center;
       user-select: none;
       position: relative;
@@ -41,9 +41,9 @@
    }
 }
 .navigation {
+   grid-area: 2;
    grid-row: 2;
    grid-column: 1;
-   grid-area: 2;
    padding: 2rem 1rem;
 
    ul {
@@ -78,9 +78,9 @@
    }
 }
 .socialNetwork {
+   grid-area: 3;
    grid-row: 3;
    grid-column: 1;
-   grid-area: 3;
 
    ul {
       display: flex;
@@ -163,7 +163,7 @@
          }
          i {
             font-size: 1.4rem !important;
-            transform:translateY(-3px) !important;
+            transform: translateY(-3px) !important;
          }
          span {
             display: none;
