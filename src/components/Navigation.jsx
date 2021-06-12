@@ -43,22 +43,46 @@ const Navigation = () => {
          <div className="socialNetwork">
             <ul>
                <li>
-                  <a href="http://www.google.fr" target="_blank" rel="noopener noreferrer">
+                  <a
+                     href="http://www.google.fr"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Linkedin"
+                     title="Linkedin"
+                  >
                      <i className="fab fa-linkedin"></i>
                   </a>
                </li>
                <li>
-                  <a href="http://www.google.fr" target="_blank" rel="noopener noreferrer">
+                  <a
+                     href="http://www.google.fr"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Github"
+                     title="Github"
+                  >
                      <i className="fab fa-github"></i>
                   </a>
                </li>
                <li>
-                  <a href="http://www.google.fr" target="_blank" rel="noopener noreferrer">
+                  <a
+                     href="http://www.google.fr"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Twitter"
+                     title="Twitter"
+                  >
                      <i className="fab fa-twitter"></i>
                   </a>
                </li>
                <li>
-                  <a href="http://www.google.fr" target="_blank" rel="noopener noreferrer">
+                  <a
+                     href="http://www.google.fr"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="Codepen"
+                     title="Codepen"
+                  >
                      <i className="fab fa-codepen"></i>
                   </a>
                </li>
