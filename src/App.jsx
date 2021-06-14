@@ -8,10 +8,9 @@ import NotFound from './pages/NotFound';
 import Portfolio from './pages/Portfolio';
 
 if ('serviceWorker' in navigator) {
-   console.log("sw ?");
    navigator.serviceWorker
       .register('/serviceWorker.js')
-      .then(() => console.log('sw registered'))
+      .then(() => console.log('Service Worker Registered !'))
       .catch((err) => console.log(err));
 }
 
