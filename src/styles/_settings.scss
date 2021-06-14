@@ -1,5 +1,12 @@
+
+// https://fontawesome.com/v5.15/icons
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'); 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+:root {
+    --heightLanguagesBarYears: '146px';
+    --heightFrameworksBarYears: '146px';
+}
 
 $font-1: 'Nova Round', cursive;
 $font-2: 'Dosis', sans-serif;

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import * as serviceWorker from '../build/serviceWorker';
 
 import './styles/index.css';
 
@@ -16,3 +17,11 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// if ('serviceWorker' in navigator) {
+//    navigator.serviceWorker
+//       .register('./serviceWorker.js')
+//       .then(() => console.log('Service Worker Registered !'))
+//       .catch((err) => console.log(err));
+// }
+// serviceWorker.register();

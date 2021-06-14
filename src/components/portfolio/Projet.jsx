@@ -28,7 +28,6 @@ class Projet extends Component {
 
             {(() => {
                // Block overflow if showinfo is showned (usefull on mobile)
-               // document.querySelector('body').style.overflowY = this.state.showInfo ? 'hidden' : 'auto';
                document.querySelector('body').classList.toggle('noScrollY', this.state.showInfo);
             })()}
             {this.state.showInfo && (
@@ -37,8 +36,11 @@ class Projet extends Component {
                      <div className="head">
                         <h2>{name}</h2>
                         <div className="sourceCode">
-                           <a href={source} rel="noopener noreferrer" className="button" target="_blank">
+                           <a href={source} rel="noopener noreferrer" className="button sources_text" target="_blank">
                               Code sources
+                           </a>
+                           <a href={source} rel="noopener noreferrer" className="button sources_icon" target="_blank">
+                              <i class="fas fa-folder-open"></i>
                            </a>
                         </div>
                      </div>

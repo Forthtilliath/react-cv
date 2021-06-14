@@ -7,7 +7,8 @@ class Languages extends Component {
          { value: 'Javascript', xp: 1.8 },
          { value: 'CSS', xp: 2.0 },
          { value: 'PHP', xp: 0.7 },
-         { value: 'Python', xp: 0.4 },
+         { value: 'Python', xp: 1.9 },
+         { value: 'Java', xp: 0.5 },
       ],
       frameworks: [
          { value: 'React', xp: 0.8 },
@@ -17,8 +18,20 @@ class Languages extends Component {
       ],
    };
 
+   /**
+    * Redimensionne la barre des années en fonction du nombre d'éléments
+    * @param {String} varName Nom de la variable du :root
+    * @param {Number} nb Nombre d'éléments afin d'adapter la hauteur de la barre des années
+    */
+   changeSizeBar = (varName, nb) => {
+      const height = `${nb * 38}px`;
+         document.querySelector(':root').style.setProperty(varName, height);
+   };
+
    render() {
       let { languages, frameworks } = this.state;
+      this.changeSizeBar('--heightLanguagesBarYears', languages.length);
+      this.changeSizeBar('--heightFrameworksBarYears', frameworks.length);
 
       return (
          <div className="languagesFrameworks">

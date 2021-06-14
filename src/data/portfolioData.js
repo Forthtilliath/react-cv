@@ -1,50 +1,50 @@
 export const portfolioData = [
-  {
-    name: 'ipsum.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project1.JPG'
-  },
-  {
-    name: 'lorem.fr',
-    languages: ['javascript','react'],
-    languagesIcons: ['fab fa-js','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project2.JPG'
-  },
-  {
-    name: 'dolorset.fr',
-    languages: ['javascript','php','css'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project3.JPG'
-  },
-  {
-    name: 'laboriosam.fr',
-    languages: ['javascript','php','react'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project4.JPG'
-  },
-  {
-    name: 'repudiante.com',
-    languages: ['javascript','css'],
-    languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project5.JPG'
-  },
-  {
-    name: 'test.io',
-    languages: ['javascript','react', 'css'],
-    languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
-    source: 'http://www.github.com',
-    info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/project6.JPG'
-  },
-]
+   {
+      name: 'ipsum.com',
+      languages: ['javascript', 'css'],
+      languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
+      source: 'http://www.github.com',
+      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+      picture: './media/project1.JPG',
+   },
+   {
+      name: 'lorem.fr',
+      languages: ['javascript', 'react'],
+      languagesIcons: ['fab fa-js', 'fab fa-react'],
+      source: 'http://www.github.com',
+      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+      picture: './media/project2.JPG',
+   },
+   {
+      name: 'dolorset.fr',
+      languages: ['javascript', 'php', 'css'],
+      languagesIcons: ['fab fa-js', 'fab fa-php', 'fab fa-css3-alt'],
+      source: 'http://www.github.com',
+      info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates molestiae libero nostrum nulla nemo molestias commodi nam earum, iste, odio enim inventore in, repudiandae numquam? Eveniet vero assumenda voluptas unde nisi non hic possimus necessitatibus cum. Labore, consequuntur? Maxime modi obcaecati debitis dicta ex aspernatur veniam illo a? Placeat perferendis at suscipit debitis autem nobis deleniti consequuntur fugit? Eligendi rem consectetur animi adipisci! Harum vel alias, consequuntur nemo quasi dicta totam distinctio beatae ullam autem eum ab illum itaque deserunt molestiae quo eaque quam laboriosam. Enim id libero deleniti facere nobis, autem sint, nemo cumque delectus saepe quisquam dignissimos. Ullam sapiente eligendi unde, ipsum ratione explicabo dolores nemo perferendis laudantium adipisci itaque quia error? Velit aspernatur exercitationem voluptate soluta, consectetur sint. Repudiandae vitae est incidunt totam commodi perspiciatis vel deleniti. Iste maxime, aperiam eum molestiae itaque, debitis, soluta natus magnam dolores aliquam numquam! Nihil necessitatibus facere dicta, ratione, rerum doloremque, ipsum dolor modi commodi laboriosam tempore! Odio sapiente voluptatem facilis, quo, ipsum commodi optio temporibus libero aspernatur cumque, recusandae vel qui ad nemo dolorum reiciendis repellat animi voluptatum autem consectetur totam exercitationem. Ullam consequuntur officiis corporis mollitia id voluptatibus temporibus iure quis, exercitationem quasi aliquam recusandae vero voluptas eaque in.',
+      picture: './media/project3.JPG',
+   },
+   {
+      name: 'laboriosam.fr',
+      languages: ['javascript', 'php', 'react'],
+      languagesIcons: ['fab fa-js', 'fab fa-php', 'fab fa-react'],
+      source: 'http://www.github.com',
+      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+      picture: './media/project4.JPG',
+   },
+   {
+      name: 'repudiante.com',
+      languages: ['javascript', 'css'],
+      languagesIcons: ['fab fa-js', 'fab fa-css3-alt'],
+      source: 'http://www.github.com',
+      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+      picture: './media/project5.JPG',
+   },
+   {
+      name: 'test.io',
+      languages: ['javascript', 'react', 'css'],
+      languagesIcons: ['fab fa-js', 'fab fa-react', 'fab fa-css3-alt'],
+      source: 'http://www.github.com',
+      info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
+      picture: './media/project6.JPG',
+   },
+];
