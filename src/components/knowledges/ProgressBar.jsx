@@ -12,12 +12,12 @@ const ProgressBar = (props) => {
 
            <div>
                {
-                   props.languages.map(item => {
+                   props.languages.map((item,key) => {
                        let xpYears = 2;
                        let ProgressBar = item.xp / xpYears * 100 + '%';
 
                        return (
-                           <div className="languagesList" key={item.id}>
+                           <div className="languagesList" key={key}>
                                <div>{item.value}</div>
                                <div className="progressBar" style={{width:ProgressBar}}></div>
                            </div>

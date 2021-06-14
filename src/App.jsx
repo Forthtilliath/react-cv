@@ -7,6 +7,14 @@ import Knowledges from './pages/Knowledges';
 import NotFound from './pages/NotFound';
 import Portfolio from './pages/Portfolio';
 
+if ('serviceWorker' in navigator) {
+   console.log("sw ?");
+   navigator.serviceWorker
+      .register('/serviceWorker.js')
+      .then(() => console.log('sw registered'))
+      .catch((err) => console.log(err));
+}
+
 const App = () => {
    return (
       <BrowserRouter>

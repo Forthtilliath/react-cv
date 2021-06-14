@@ -12,6 +12,7 @@ class Projet extends Component {
    render() {
       let { name, languages, languagesIcons, source, info, picture } = this.props.item;
 
+
       return (
          <div className="project">
             <div className="icons">
@@ -25,6 +26,11 @@ class Projet extends Component {
                <i className="fas fa-plus-circle"></i>
             </span>
 
+            {(() => {
+               // Block overflow if showinfo is showned (usefull on mobile)
+               // document.querySelector('body').style.overflowY = this.state.showInfo ? 'hidden' : 'auto';
+               document.querySelector('body').classList.toggle('noScrollY', this.state.showInfo);
+            })()}
             {this.state.showInfo && (
                <div className="showInfos">
                   <div className="infosContent">

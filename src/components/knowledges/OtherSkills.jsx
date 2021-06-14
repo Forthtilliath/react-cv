@@ -1,39 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-const OtherSkills = () => {
-   return (
-      <div className="otherSkills">
-         <h3>Autres compétences</h3>
-         <div className="list">
-            <ul>
-               <li>
-                  <i className="fas fa-check-square"></i> Anglais
-               </li>
-               <li>
-                  <i className="fas fa-check-square"></i> Github
-               </li>
-               <li>
-                  <i className="fas fa-check-square"></i> SEO
-               </li>
-               <li>
-                  <i className="fas fa-check-square"></i> Méthodes agiles
-               </li>
-               <li>
-                  <i className="fas fa-check-square"></i> Figma
-               </li>
-               <li>
-                  <i className="fas fa-check-square"></i> UI/UX
-               </li>
-               <li>
-                  <i className="fas fa-check-square"></i> Photoshop
-               </li>
-               <li>
-                  <i className="fas fa-check-square"></i> Montage vidéo
-               </li>
-            </ul>
+class OtherSkills extends Component {
+   state = {
+      otherSkills: ['SQL', 'Github', 'Gulp', 'Photoshop', 'Anglais', 'Autodidacte', 'Curieux', 'SVG'],
+   };
+   render() {
+      return (
+         <div className="otherSkills">
+            <h3>Autres compétences</h3>
+            <div className="list">
+               <ul>
+                  {this.state.otherSkills.map((item, key) => {
+                     return (
+                        <li key={key}>
+                           <i className="fas fa-check-square"></i> {item}
+                        </li>
+                     );
+                  })}
+               </ul>
+            </div>
          </div>
-      </div>
-   );
-};
+      );
+   }
+}
 
 export default OtherSkills;
