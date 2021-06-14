@@ -1,5 +1,7 @@
-const cacheName = 'cache-v3';
-const assets = [
+// https://www.youtube.com/watch?v=5f1M_cu2eDM
+
+const CACHE_NAME = 'cache-v3';
+const CACHED_FILES = [
    '/',
    '/index.html',
    '/media/billGates.jpg',
@@ -18,10 +20,10 @@ const assets = [
 // mettre en cache
 self.addEventListener('install', (e) => {
    self.skipWaiting();
-   console.log(`${cacheName} Install`);
+   console.log(`${CACHE_NAME} Install`);
    e.waitUntil(
-      caches.open(cacheName).then((cache) => {
-         cache.addAll(assets);
+      caches.open(CACHE_NAME).then((cache) => {
+         cache.addAll(CACHED_FILES);
       }),
    );
 });
@@ -29,12 +31,12 @@ self.addEventListener('install', (e) => {
 // met à jour les caches
 self.addEventListener('activate', (e) => {
    clients.claim();
-   console.log(`${cacheName} Activate`);
+   console.log(`${CACHE_NAME} Activate`);
    e.waitUntil(
       caches.keys().then((keys) => {
          Promise.all(
             keys.map((key) => {
-               if (!key.includes(cacheName)) {
+               if (!key.includes(CACHE_NAME)) {
                   caches.delete(key);
                }
             }),
