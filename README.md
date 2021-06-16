@@ -38,7 +38,9 @@ Et enfin, le système de boutons radio sur le portfolio qui permet de n'afficher
 
 # Améliorations possibles
 
-Une amélioration possible serait de pouvoir afficher plus de 6 projets via un système de pagination.
+Une amélioration possible serait de pouvoir afficher plus de 6 projets via un système de pagination. A l'heure actuelle, seul les 6 premiers seront affichés sans aucun message pour nous signaler qu'il y en a plus.
+
+A noter aussi, que la partie Formation n'est pas inclus dans ce CV, nous pourrions donc l'ajouter.
 
 # Screenshots du résultat
 
