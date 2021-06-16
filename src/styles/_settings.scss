@@ -1,11 +1,31 @@
-
 // https://fontawesome.com/v5.15/icons
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'); 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
 
 :root {
-    --heightLanguagesBarYears: '146px';
-    --heightFrameworksBarYears: '146px';
+   --heightLanguagesBarYears: '146px';
+   --heightFrameworksBarYears: '146px';
+   --heightLanguages: '200px';
+   --heightFrameworks: '178px';
+
+   --heightLanguagesHeader: '41';
+   --heightLanguagesDiv: '37';
+   @media screen and (max-width: 1075px) {
+      --heightLanguagesHeader: '54';
+   }
+   @media screen and (max-width: 950px) {
+      --heightLanguagesHeader: '51';
+      --heightLanguagesDiv: '32';
+   }
+   @media screen and (max-width: 850px) {
+      --heightLanguagesHeader: '38';
+   }
+   @media screen and (max-width: 800px) {
+      --heightLanguagesHeader: '51';
+   }
+   @media screen and (max-width: 500px) {
+      --heightLanguagesHeader: '38';
+   }
 }
 
 $font-1: 'Nova Round', cursive;
@@ -28,50 +48,56 @@ $minHeight: 95vh;
 $otherSkillsCol: 2;
 
 @mixin verticalCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
 }
 body {
-    margin: 1rem auto;
-    max-width: 1200px;
-    font-family: $font-1;
-    background-color: $black;
+   margin: 1rem auto;
+   max-width: 1200px;
+   font-family: $font-1;
+   background-color: $black;
 }
 button {
-    cursor: pointer;
+   cursor: pointer;
 }
 li {
-    list-style-type: none;
+   list-style-type: none;
 }
 a {
-    text-decoration: none;
-    color: $black;
-    cursor: pointer;
+   text-decoration: none;
+   color: $black;
+   cursor: pointer;
 }
 a:visited {
-    color: $black;
+   color: $black;
 }
-.home, .knowledges, .portfolio, .contact {
-    display: flex;
+.home,
+.knowledges,
+.portfolio,
+.contact {
+   display: flex;
 
-    @media screen  and (max-width:850px){
-        display: block !important;
-    }
+   @media screen and (max-width: 850px) {
+      display: block !important;
+   }
 }
-.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
-    margin-left: .4rem;
+.homeContent,
+.knowledgesContent,
+.portfolioContent,
+.contactContent {
+   margin-left: 0.4rem;
 
-    @media screen  and (max-width:850px){
-        margin-left: 0 !important;
-    }
+   @media screen and (max-width: 850px) {
+      margin-left: 0 !important;
+   }
 }
 .noScrollY {
-    overflow-y: hidden;
+   overflow-y: hidden;
 }

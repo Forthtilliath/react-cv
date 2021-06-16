@@ -40,7 +40,7 @@ class Projet extends Component {
                               Code sources
                            </a>
                            <a href={source} rel="noopener noreferrer" className="button sources_icon" target="_blank">
-                              <i class="fas fa-folder-open"></i>
+                              <i className="fas fa-folder-open"></i>
                            </a>
                         </div>
                      </div>

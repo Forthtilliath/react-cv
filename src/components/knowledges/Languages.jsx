@@ -19,19 +19,36 @@ class Languages extends Component {
    };
 
    /**
+    * Récupère la valeur d'une variable css à l'aide de son nom
+    * @param {String} varName 
+    * @returns {Number}
+    */
+   getNumberFromCssVar = (varName) => {
+      let docStyle = getComputedStyle(document.documentElement);
+      let value = docStyle.getPropertyValue(varName);
+      let number = value.replace(/[^\d]/g, '');
+      return parseInt(number, 10);
+   };
+
+   /**
     * Redimensionne la barre des années en fonction du nombre d'éléments
     * @param {String} varName Nom de la variable du :root
     * @param {Number} nb Nombre d'éléments afin d'adapter la hauteur de la barre des années
     */
-   changeSizeBar = (varName, nb) => {
-      const height = `${nb * 38}px`;
-         document.querySelector(':root').style.setProperty(varName, height);
+   changeSize = (varNameDiv, varNameBar, nb) => {
+      let h_header = this.getNumberFromCssVar('--heightLanguagesHeader');
+      let h_elem = this.getNumberFromCssVar('--heightLanguagesDiv');
+      const heightBar = `${nb * h_elem + 10}px`;
+      document.querySelector(':root').style.setProperty(varNameBar, heightBar);
+      const heightDiv = `${nb * h_elem + 20 + h_header}px`;
+      document.querySelector(':root').style.setProperty(varNameDiv, heightDiv);
    };
 
    render() {
       let { languages, frameworks } = this.state;
-      this.changeSizeBar('--heightLanguagesBarYears', languages.length);
-      this.changeSizeBar('--heightFrameworksBarYears', frameworks.length);
+      // Adapte la hauteur de la barre ainsi que de la div en fonction du nombre d'éléments
+      this.changeSize('--heightLanguages', '--heightLanguagesBarYears', languages.length);
+      this.changeSize('--heightFrameworks', '--heightFrameworksBarYears', frameworks.length);
 
       return (
          <div className="languagesFrameworks">

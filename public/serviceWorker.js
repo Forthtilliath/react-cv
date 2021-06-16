@@ -1,6 +1,6 @@
 // https://www.youtube.com/watch?v=5f1M_cu2eDM
 
-const CACHE_NAME = 'cache-v3';
+const CACHE_NAME = 'cache-v4';
 const CACHED_FILES = [
    '/',
    '/index.html',
@@ -13,6 +13,7 @@ const CACHED_FILES = [
    '/media/project4.JPG',
    '/media/project5.JPG',
    '/media/project6.JPG',
+   '/static/media/*'
 ];
 // const self = window.self;
 // const clients = window.clients;

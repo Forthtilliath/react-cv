@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Introduction
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projet développé à l'aide d'un cours vidéo : [[Projet React] Coder son CV avec la bibliothèque React (débutant)](https://www.youtube.com/watch?v=pS0v5eY7W9k).
 
-## Available Scripts
+# Intérêts de ce projet
 
-In the project directory, you can run:
+Ce second projet a pour but premier de me faire découvrir Réact et de m'améliorer en SASS. Le CV est responsive.
 
-### `npm start`
+# Problèmes rencontrés
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Je n'ai rencontré aucun problème lors du développement de ce projet.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Améliorations apportées au projet
 
-### `npm test`
+## Styles
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dans l'ensemble, les styles étaient bons, j'ai juste fait des retouches pour améliorer la responsivité (l'affichage d'un projet par exemple qui sous mobile ne s'adaptait pas à l'écran) et certains affichages, comme les progressbar pour que la longueur corresponde réellement avec la durée saisie dans le code.
 
-### `npm run build`
+De plus, le fait de vouloir rendre le nombre d'éléments pour les languages et les frameworks dynamiques, m'a demandé à rendre la hauteur du block dynamique, ce qui a eu pour effet de complexifier à cause de ma volonté à garder le plus de responsivité possible.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## serviceWorker
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Comme le site fonctionne en "1 page", j'ai constaté qu'en cas de déconnexion à internet (ou si le router était coupé), le site continuait à fonctionner. Toutefois, les images du portfolio, entre autres, n'étaient plus chargées. J'ai donc mis en place un serviceWorker afin de mettre en cache les éléments manquant afin que le CV contiue de fonctionner même hors-ligne.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+J'ai mis cela en place à l'aide d'une vidéo qui faisait cela sur un site "basique", donc je pense que j'ai du passer à coté de librairie qui m'aurait bien aider à m'être cela en place avec Réact (cf: [Setting up a PWA with service workers and create-react-app](https://blog.logrocket.com/setting-up-a-pwa-with-service-workers-and-create-react-app/))
 
-### `npm run eject`
+## Application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Lors de la création d'un projet Réact, un fichier manifest est généré. J'ai donc configuré le fichier afin de rendre possible d'installer le CV comme une application. Autant ce n'est pas utile pour un CV, autant cela pourrait servir pour d'autres sites.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Ce que m'a apporté ce projet
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+J'ai fait une belle découverte avec Réact. J'ai vraiment apprécié la façon donc le code est structuré. J'ai pu apprendre la gestion du cache à l'aide du serviceWorker, qui peut s'avérer très utile pour des API qui font appel à des données externes, afin de les garder fonctionnelles.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+J'ai aussi pu utiliser le copier/coller dans le presse-papier lors de ce projet. Rarement utile, mais toujours bon de savoir comment le mettre en place.
 
-## Learn More
+Et enfin, le système de boutons radio sur le portfolio qui permet de n'afficher que les projets utilisant un certain langage était très intéressant à mettre en place. Ceci pourrait m'être utile dans de multiples projets futurs.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Améliorations possibles
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Une amélioration possible serait de pouvoir afficher plus de 6 projets via un système de pagination.
 
-### Code Splitting
+# Screenshots du résultat
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Version pc
+![home](screenshots/home.png)
+![skills](screenshots/skills.png)
+![portfolio_js](screenshots/portfolio_js.png)
+![portfolio_react](screenshots/portfolio_react.png)
+![contact](screenshots/contact.png)
 
-### Analyzing the Bundle Size
+### Version iPad
+![skills_ipad](screenshots/skills_ipad.png)
+![portfolio_ipad](screenshots/portfolio_portfolio_ipad.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Version Mobile
+![skills_mobile](screenshots/skills_mobile.png)
+![portfolio_mobile](screenshots/portfolio_mobile.png)
