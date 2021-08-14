@@ -53,7 +53,7 @@ A noter aussi, que la partie Formation n'est pas inclus dans ce CV, nous pourrio
 
 ### Version iPad
 ![skills_ipad](screenshots/skills_ipad.png)
-![portfolio_ipad](screenshots/portfolio_portfolio_ipad.png)
+![portfolio_ipad](screenshots/portfolio_ipad.png)
 
 ### Version Mobile
 ![skills_mobile](screenshots/skills_mobile.png)
